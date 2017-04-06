@@ -1,0 +1,37 @@
+/*
+* @Author: dell
+* @Date:   2017-03-25 15:31:05
+* @Last Modified by:   dell
+* @Last Modified time: 2017-03-25 15:49:46
+*/
+*{
+	margin:0;
+	padding:0;
+}
+.box{
+	height:166px;
+	width:238px;
+	border:1px solid #ccc;
+	border-top:5px solid #879;
+margin:50px auto;
+}
+.title{
+	height: 35px;
+border-bottom:1px solid #ccc;
+line-height: 35px;
+padding-left: 11px;
+}
+ul{
+	list-style: none;
+	margin-top:14px ;
+	margin-left:9px;
+}
+li {
+	height: 20px;
+	padding-left: 10px;
+}
+li a{
+	text-decoration: none;
+	font-size: 14px;
+	font-family: ;
+}

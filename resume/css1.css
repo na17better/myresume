@@ -1,0 +1,220 @@
+/*
+* @Author: dell
+* @Date:   2017-03-11 11:00:39
+* @Last Modified by:   dell
+* @Last Modified time: 2017-03-27 10:18:12
+*/
+*{
+	margin:0;
+	padding:0;
+}
+ul{
+	list-style: none;
+}
+ul li{
+	
+	text-align: center;
+}
+a{
+	text-decoration: none;
+}
+body{
+	background-image:url(imgs/bg_B.jpg);
+}
+.page1{
+	height:615px;
+}
+.nav{
+	height: 55px;
+	background:url(imgs/head_bg.jpg) repeat-x;
+	position: fixed;
+	position: relative;
+}
+
+.nav img{
+	display: inline-block;
+	height:50px;
+	width: 50px;
+	padding-left: 10px;
+	padding-top: 3px;
+	line-height: center;
+	float: left;
+}
+.nav ul{
+	list-style: none;
+	height: 55px;
+	position: absolute;
+	right: 0;
+	float: left;
+}
+.nav ul li{
+	width:80px;
+	height:55px;
+	float: left;
+}
+.nav ul li a{
+	text-decoration: none;
+	line-height: 55px;
+}
+.nav ul li a:hover{
+	color: red;
+}
+
+/*content*/
+div .content{
+	position: relative;
+	margin-top:70px;
+	margin-left: 100px;
+}
+.myPhoto{
+	position: absolute;
+	display: inline-block;
+	left: 100px;
+	width:200px;
+	height:240px;
+	border:1px solid #ccc;
+	float: left;
+	
+}
+.intro{
+	height:400px;
+	width: 700px;
+	border:1px solid #ccc;
+	position:absolute;
+	left:400px;
+	float: left;
+
+}
+/*page2*/
+.page2{
+	width:100%;
+	height:670px;
+	background:url(imgs/bg_C.jpg) no-repeat;
+	position: relative;
+
+}
+.page2 .content2{
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	left:450px;
+	width: 450px;
+	height: 300px;
+	top:150px;
+	/*border:1px solid #ccc;*/
+}
+h1{
+	font-size: 50px;
+	font-family: "微软雅黑";
+	color:yellowgreen;
+	text-shadow:3px 3px 3px #ccc;
+}
+h3{
+	font-size: 20px;
+	font-family: "微软雅黑";
+	color:#aaa;
+}
+span{
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color:#bbb;
+}
+/*page3*/
+.page3{
+	width:100%;
+	height:670px;
+	/*background:url(imgs/bg_E.jpg) no-repeat;*/
+	position: relative;
+	color: yellowgreen;
+}
+.page3 .content3{
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	left:450px;
+	width: 450px;
+	height: 300px;
+	top:140px;
+	/*border:1px solid #ccc;*/
+	font-family: "微软雅黑";
+
+}
+.professional{
+	margin-top: 10px;
+}
+.content3 ul{
+	margin: 5px 8px;
+	height:25px;
+	display: inline-block;
+}
+.content3 ul li{
+	font-color:yellowgreen;
+	background-color: #ccc;
+	padding:3px 7px;
+	display: inline-block;
+	float: left;
+	border-radius: 5px;
+	margin-left: 20px;
+
+}
+.content3 ul li a:hover{
+	color: green;
+}
+/*page4*/
+.page4{
+	width:100%;
+	height:670px;
+	background:url(imgs/bg_E.jpg) no-repeat;
+	position: relative;
+	color: yellowgreen;
+}
+.page4 .content4{
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	left:450px;
+	width: 450px;
+	height: 300px;
+	top:140px;
+	border:1px solid #ccc;
+	font-family: "微软雅黑";
+
+}
+/*page5*/
+.page5{
+	width:100%;
+	height:670px;
+	/*background:url(imgs/bg_E.jpg) no-repeat;*/
+	position: relative;
+	color: yellowgreen;
+}
+.page5 .content5{
+	text-align: center;
+	padding-top: 40px;
+	position: absolute;
+	left:450px;
+	width: 550px;
+	height: 400px;
+	top:170px;
+	border:1px solid #ccc;
+	font-family: "微软雅黑";
+
+}
+.onLine{
+	text-align: center;
+	}
+.onLine .cont{
+	width:44px;
+	height:44px;
+	background-color: #008a75;
+	background-image: url(imgs/social.png);
+	display:inline-block;
+	margin:5px;
+	border-bottom: none;
+	border-radius: 22px;
+	background-position: -158px -40px;
+}
+.onLine .contact2{
+	background-position:-158px -0px ;
+
+}
